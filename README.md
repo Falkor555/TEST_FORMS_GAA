@@ -1,5 +1,13 @@
 # TEST_FORMS_GAA
 
+## Langages et choix techniques
+
+- **Django (Python)** :  
+  Je connais bien ce framework et je suis à l’aise avec son écosystème pour gérer la logique serveur, la base de données et l’API.
+
+- **JavaScript** :  
+  C’est un langage simple à mettre en place dans le navigateur et adapté pour ce type d’interface.
+
 ## Fonctionnalités
 
 - Ajout de contacts via un pop-in
