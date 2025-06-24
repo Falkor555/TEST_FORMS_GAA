@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Liste des contacts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Ajouter un contact</h2>
+    <button id="openModalBtn">Ajouter un contact</button>
+  <div id="contacts"></div>
+
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <button id="closeModalBtn" type="button">Fermer</button>
+      <form id="contactForm">
+        <label>Nom: <input type="text" id="lastName" required></label><br>
+        <label>Prénom: <input type="text" id="firstName" required></label><br>
+        <label>Email: <input type="email" id="email" required></label><br>
+        <label>Adresse postale: <input type="text" id="address" required></label><br>
+        <button type="submit" id="submitBtn" disabled>Valider</button>
+      </form>
+    </div>
+  </div>
+  <div class="toast" id="toast"></div>
+  <script src="main.js"></script>
+</body>
+</html>
